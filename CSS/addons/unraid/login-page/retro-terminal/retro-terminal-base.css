@@ -306,7 +306,7 @@ logo.angle {
     top: 111px;
     right: -15px;
     background-color: var(--custom-text-header);
-    vertical-align: top;
+    vertical-align: bottom;
     width: 20px;
     height: 2px;
     -webkit-animation: blink 1s step-end infinite;

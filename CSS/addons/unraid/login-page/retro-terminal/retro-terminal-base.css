@@ -249,6 +249,7 @@ h1 {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     margin: 0 !important;
     text-transform: uppercase;
     min-width: 300px;
@@ -299,7 +300,7 @@ logo.angle {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     font-weight: 900;
-    -moz-margin:0px;
+    -moz-transform: translate(-50%, -50%);
 }
 .custom-text-header:after {
     content: "";
@@ -312,8 +313,8 @@ logo.angle {
     height: 2px;
     -webkit-animation: blink 1s step-end infinite;
     animation: blink 1s step-end infinite;
-    -moz-margin:0px;
 }
+
 @-webkit-keyframes blink {
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }

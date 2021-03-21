@@ -299,6 +299,7 @@ logo.angle {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     font-weight: 900;
+    -moz-margin:0px;
 }
 .custom-text-header:after {
     content: "";
@@ -311,6 +312,7 @@ logo.angle {
     height: 2px;
     -webkit-animation: blink 1s step-end infinite;
     animation: blink 1s step-end infinite;
+    -moz-margin:0px;
 }
 @-webkit-keyframes blink {
     0% { opacity: 1.0; }
